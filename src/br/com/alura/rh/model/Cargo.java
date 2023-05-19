@@ -7,4 +7,6 @@ public enum Cargo {
 	ESPECIALISTA,
 	GERENTE;
 
+    public abstract getProximoCargo() {
+    }
 }
